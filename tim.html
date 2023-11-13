@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <title>Tentang</title>
+
+    <style>
+        .normal-text {
+            font-weight: normal;
+            font-size: 16px;
+        }
+
+        /* CSS untuk gambar anggota tim */
+        .team-members {
+            display: flex; /* Mengatur tampilan flex untuk gambar */
+            justify-content: space-between; /* Membuat gambar tersebar sejajar */
+            margin-top: 20px; /* Memberikan jarak di atas gambar */
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .team-member img {
+            max-width: 100px; /* Mengatur lebar maksimum gambar */
+        }
+
+        .fixed-section {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             z-index: 100;
+             background-color: rgba(4, 3, 3, 0.8); /* Atur latar belakang semi-transparan sesuai keinginan Anda */
+             transition: background-color 0.5s;
+         }
+
+         .content {
+            margin-top: 1000px; /* Sesuaikan tinggi margin sesuai kebutuhan Anda */
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-section" id="navbar">
+        <div class="container">
+          <a id="Chillify" class="navbar-brand" href="#">Chillify</a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="layanan.html">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kebun.html">Kebun</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tim.html">Tim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+    <div class="container mt-5 " id="Perkenalkan Anggota Tim Hebat Kami">
+        <h1 class="text-center">Perkenalkan Anggota Tim Hebat Kami</h1>
+        </div>
+    
+        <div class="container mt-5 content">
+            <div class="team-members row justify-content-center">
+                <!-- Baris pertama dengan 3 gambar di atas -->
+                <div class="team-member col-md-4">
+                    <img src="imag" alt="Anggota Tim 1">
+                    <h4>Siti Wahyuni</h4>
+                    <p>Frontend Engineer</p>
+                    <p>Mahasiswi S1 di Universitas  Malikussaleh</p>
+                </div>
+                <div class="team-member col-md-4">
+                    <img src="img/team-member-2.jpg" alt="Anggota Tim 2">
+                    <h4>Rifa Amril Sahputra</h4>
+                    <p>Modeler</p>
+                    <p>Mahasiswa S1 di Universitas  Malikussaleh</p>
+                </div>
+                <div class="team-member col-md-4">
+                    <img src="img/team-member-3.jpg" alt="Anggota Tim 3">
+                    <h4>Josua Sihombing</h4>
+                    <p>Role</p>
+                    <p>Mahasiswa di Universitas HKBP Nommensen Medan </p>
+                </div>
+                <!-- Baris kedua dengan 2 gambar di bawah -->
+                <div class="team-member col-md-6">
+                    <img src="img/team-member-4.jpg" alt="Anggota Tim 4">
+                    <h4>Elpiana Harefa</h4>
+                    <p>Technical Writer</p>
+                    <p>Mahasiswi di Universitas HKBP Nommensen Medan</p>
+                </div>
+                <div class="team-member col-md-6">
+                    <img src="img/team-member-5.jpg" alt="Anggota Tim 5">
+                    <h4>Elisabet Ziliwu</h4>
+                    <p>Technical Writer</p>
+                    <p>Mahasiswi di Universitas XYZ</p>
+                </div>
+            </div>
+        </div>
+        
+
+    
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
